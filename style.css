@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(background.jpg);
+    height: 72vh;
+    position: relative;
+    background-position: center;
+    background-size: max(1312px, 100vw);
+    background-repeat: no-repeat;
+
+
+}
+
+.black {
+    background-color: rgba(23, 23, 23, 0.70);
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.navbar {
+    position: relative;
+    top: 20px;
+}
+
+.navcon {
+
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80vw;
+
+
+}
+
+.logo {
+    width: 148px;
+    color: red;
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.eng {
+    z-index: 10;
+}
+
+.log {
+    background-color: red;
+    height: 32px;
+    width: 76px;
+    border-radius: 3px;
+    border: 0cap;
+}
+
+.en {
+
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    height: 32px;
+    width: 125px;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.377);
+    border-radius: 3px;
+}
+
+.hero {
+    height: calc(100% - 44px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    gap: 23px;
+    padding: 30;
+    text-align: center;
+    font-style: normal;
+    z-index: 10;
+}
+
+.fr {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.sn {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.th {
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.inp{
+    background-color: rgba(0, 0, 0, 0.171);
+    height: 56px;
+    width: 360px;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.37);
+    border-radius: 4px;
+    
+}
+.main input {
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    height: 41px;
+    width: 245px;
+}
+.buto{
+    height: 56px;
+    width: 202.73px;
+    background-color: red;
+    border: 0px ;
+    border-radius: 3px;
+    color: white;
+    padding: 3px 25px;
+    font-size: 23px;
+
+}
+.seperation{
+    background-color: rgb(56, 56, 56);
+    height: 8px;
+    position: relative;
+    
+}
+.herobut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
